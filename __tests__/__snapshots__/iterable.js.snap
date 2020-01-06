@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ignore transforms const enum 1`] = `
+"const enum Direction {
+  Left = 'Left',
+  Right = 'Right',
+  Down = 'Down',
+  Up = 'Up',
+}
+;"
+`;
+
+exports[`Transform default values 1`] = `
+"const Direction = {
+  Left: 0,
+  Right: 1,
+  Down: 2,
+  Up: 3,
+  \\"__proto__\\": {
+    0: Left,
+    1: Right,
+    2: Down,
+    3: Up
+  }
+};
+;"
+`;
+
+exports[`Transforms computed values 1`] = `
+"const Direction = {
+  Left: 0,
+  Right: 1,
+  Down: 2,
+  Up: 3,
+  Front: 3,
+  \\"__proto__\\": {
+    0: Left,
+    1: Right,
+    2: Down,
+    3: Up,
+    3: Front
+  }
+};
+;"
+`;
+
+exports[`Transforms default string values 1`] = `
+"const Direction = {
+  Left: \\"Left\\",
+  Right: \\"Right\\",
+  Down: \\"Down\\",
+  Up: \\"Up\\"
+};
+;"
+`;

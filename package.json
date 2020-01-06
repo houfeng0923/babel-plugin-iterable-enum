@@ -1,0 +1,39 @@
+{
+  "name": "babel-plugin-iterable-enum",
+  "version": "0.0.1",
+  "description": "make typescript enum iterable",
+  "repository": "https://github.com/houfeng0923/babel-plugin-iterable-enum",
+  "author": "houfeng",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "babel-plugin",
+    "typescript",
+    "iterable",
+    "enum"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "jest",
+    "prettier-fix": "prettier --write src/**/*.js __tests__/**/*.js"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-syntax-typescript": "^7.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/generator": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  },
+  "files": [
+    "lib"
+  ]
+}
