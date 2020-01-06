@@ -17,10 +17,10 @@ exports[`Transform default values 1`] = `
   Down: 2,
   Up: 3,
   \\"__proto__\\": {
-    0: Left,
-    1: Right,
-    2: Down,
-    3: Up
+    0: \\"Left\\",
+    1: \\"Right\\",
+    2: \\"Down\\",
+    3: \\"Up\\"
   }
 };
 ;"
@@ -34,11 +34,11 @@ exports[`Transforms computed values 1`] = `
   Up: 3,
   Front: 3,
   \\"__proto__\\": {
-    0: Left,
-    1: Right,
-    2: Down,
-    3: Up,
-    3: Front
+    0: \\"Left\\",
+    1: \\"Right\\",
+    2: \\"Down\\",
+    3: \\"Up\\",
+    3: \\"Front\\"
   }
 };
 ;"

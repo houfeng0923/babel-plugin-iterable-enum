@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-iterable-enum",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "make typescript enum iterable",
   "repository": "https://github.com/houfeng0923/babel-plugin-iterable-enum",
   "author": "houfeng",

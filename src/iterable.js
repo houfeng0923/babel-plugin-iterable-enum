@@ -34,7 +34,7 @@ const TSEnumMembersToObjectProperties = memberPaths => {
     constValues[key] = value;
     if (types.isNumericLiteral(valueNode)) {
       currentValue = value + 1;
-      protoPropNodes.push(types.objectProperty(valueNode, keyNode));
+      protoPropNodes.push(types.objectProperty(valueNode, types.stringLiteral(key)));
     } else if (types.isStringLiteral(valueNode)) {
       currentValue = null;
     }
